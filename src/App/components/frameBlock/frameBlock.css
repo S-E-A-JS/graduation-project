@@ -1,0 +1,13 @@
+.frame-block {
+  width: 1200px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  top: calc(50% - 300px);
+  border: 5px solid white;
+  border-radius: 50px;
+  background-color: rgba(32, 32, 32, 0.82);
+  text-align: center;
+}
+

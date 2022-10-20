@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  height: 100px;
+}
+.navbar__list {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.navbar__text {
+  font-size: 40px;
+  margin: 40px;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+}
+.navbar_user-account {
+  position: absolute;
+  right: 40px;
+  margin-top: 20px;
+  font-size: 30px;
+}

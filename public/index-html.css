@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+}
+a:link, a:visited, a:hover, a:active{
+  color: rgba(240, 240, 240, 1);; 
+  text-decoration: none;
+}
