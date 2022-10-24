@@ -1,0 +1,38 @@
+.timer-block {
+  width: 100%;
+  font-size: 40px;
+  margin: 40px auto 20px;
+}
+.timer-block__container {
+  display: flex;
+  margin: 20px;
+  padding: 20px;
+  align-items: flex-end;
+}
+.timer-block__text {
+  display: flex;
+  margin-right: 200px;
+}
+.timer-block__button_icon {
+  height: 40px;
+  width: 40px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.timer-block__button_play, .timer-block__button_pause {
+  margin-right: 20px;
+}
+
+.timer-block__container_output {
+  display: inherit;
+  width: 600px;
+  align-items: flex-end;
+}
+.container_output__hours, .container_output__minutes, .container_output__seconds {
+  margin: 0 10px;
+  padding-top: 5px;
+  width: 50px;
+}
+
+

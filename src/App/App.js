@@ -3,11 +3,11 @@ import { Route } from 'react-router-dom'
 import './App.css'
 
 import NavBar from './components/navbar/navBar'
-import MainPage from './components/mainPage/mainPage'
-import AllProjects from './components/allProjects'
-import Analytics from './components/analytics'
-import UserAccount from './components/userAccount'
-import StartPage from './components/startPage/startPage'
+import MainPage from './components/pages/mainPage/mainPage'
+import AllProjects from './components/pages/allProjects/allProjects'
+import Analytics from './components/pages/analytics/analytics'
+import UserAccount from './components/pages/userAccount/userAccount'
+import StartPage from './components/pages/startPage/startPage'
 // TODO развернуть json-server
 // TODO прописать в DB тестовые 10 проектов
 // TODO написать методы обращения к серверу GET - получение, PUT - изменение, POST - создание

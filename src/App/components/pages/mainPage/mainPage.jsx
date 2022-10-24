@@ -1,12 +1,13 @@
 import React from 'react'
 
-import FrameBlock from '../frameBlock/frameBlock'
+import FrameBlock from '../../design-components/frameBlock/frameBlock'
+import Timer from '../../timer/timer'
 // TODO создать блок таймера внутри
 // TODO создать кнопки пуск и пауза
 // TODO создать поле вывода таймера
 const MainPage = () => (
   <FrameBlock>
-    <h1>Главная страница</h1>
+    <Timer/>
   </FrameBlock> )
 
 export default MainPage

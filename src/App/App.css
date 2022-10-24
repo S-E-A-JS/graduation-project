@@ -1,7 +1,7 @@
 .wrap {
   height: 100vh;
   width: 100vw;
-  background-image: url(./background-img.jpg);
+  background-image: url(./background-img.png);
   background-size: 100% 100%;
   color: rgba(240, 240, 240, 1);
   font-family: 'Comfortaa', cursive;

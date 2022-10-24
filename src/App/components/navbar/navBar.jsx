@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './navBar.css'
 
-import Underline from '../design-components/underline'
+import Underline from '../design-components/uderline/underline'
 
 const NavBar = () => {
   const pageNames = {

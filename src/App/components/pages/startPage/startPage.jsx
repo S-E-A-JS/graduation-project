@@ -1,7 +1,7 @@
 import React from 'react'
 import './startPage.css'
 
-import FrameBlock from '../frameBlock/frameBlock'
+import FrameBlock from '../../design-components/frameBlock/frameBlock'
 
 const StartPage = () => (
   <FrameBlock>
